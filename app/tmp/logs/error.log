@@ -1,0 +1,2074 @@
+2015-11-25 17:25:23 Error: [MissingActionException] Action UsersController::logins() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'logins',
+)
+Request URL: /cakephp-2.7.3/users/logins
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-25 17:35:31 Error: [MissingActionException] Action UsersController::registre() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'registre',
+)
+Request URL: /cakephp-2.7.3/users/registre
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-25 17:50:20 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/User.php, line 10]
+2015-11-25 17:50:20 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp-2.7.3/users/register
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 13:22:03 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-10 13:22:44 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-10 13:22:45 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-10 13:22:46 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-10 13:22:53 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/View/Players/login.ctp, line 11]
+2015-12-10 13:22:53 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /cakephp-2.7.3/players/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 13:37:05 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 13:38:04 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 13:38:23 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 13:38:44 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null
+Request URL: /cakephp-2.7.3/players/register
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `te...', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(1020): DboSource->execute('INSERT INTO `te...')
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Player.php(13): Model->save(Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(34): Player->add(NULL, '57d364229d5de96...')
+#7 [internal function]: PlayersController->register()
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-10 15:14:44 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:36:21 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:43:51 Error: [MissingViewException] View file "Arenas/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas/index.ctp',
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:43:59 Error: [MissingViewException] View file "Arenas/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas/index.ctp',
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:44:21 Error: [MissingViewException] View file "Arenas/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas/index.ctp',
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:44:22 Error: [MissingViewException] View file "Arenas/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas/index.ctp',
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:44:25 Error: [MissingViewException] View file "Arenas/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas/index.ctp',
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:45:25 Error: [MissingViewException] View file "Arenas/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas/index.ctp',
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:45:26 Error: [MissingViewException] View file "Arenas/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas/index.ctp',
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:45:28 Error: [MissingViewException] View file "Arenas/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas/index.ctp',
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:45:34 Error: [MissingViewException] View file "Arenas/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Arenas/index.ctp',
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:45:47 Error: [MissingControllerException] Controller class ArenasController could not be found.
+Exception Attributes: array (
+  'class' => 'ArenasController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-10 15:46:05 Error: [MissingControllerException] Controller class ArenasController could not be found.
+Exception Attributes: array (
+  'class' => 'ArenasController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-10 15:46:09 Error: [MissingControllerException] Controller class ArenasController could not be found.
+Exception Attributes: array (
+  'class' => 'ArenasController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-10 15:46:49 Error: [MissingControllerException] Controller class ArenasController could not be found.
+Exception Attributes: array (
+  'class' => 'ArenasController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-10 15:46:57 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:51:58 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:52:19 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:55:08 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:56:20 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 15:58:17 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 16:01:25 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 16:01:57 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 16:03:08 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null
+Request URL: /cakephp-2.7.3/players/register
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `te...', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(1020): DboSource->execute('INSERT INTO `te...')
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Player.php(44): Model->save(Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(45): Player->add(NULL, '57d364229d5de96...')
+#7 [internal function]: PlayersController->register()
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-10 16:03:20 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'email' cannot be null
+Request URL: /cakephp-2.7.3/players/register
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `te...', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(1020): DboSource->execute('INSERT INTO `te...')
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Player.php(44): Model->save(Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(45): Player->add(NULL, '57d364229d5de96...')
+#7 [internal function]: PlayersController->register()
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-10 16:04:44 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 16:07:20 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-10 23:35:11 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 09:58:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/downloads-bg.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:00:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/avatars/default.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:01:49 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:02:20 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:15:05 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:15:56 Error: [MissingActionException] Action PlayersController::fighter() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'fighter',
+)
+Request URL: /cakephp-2.7.3/players/fighter
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-11 10:17:18 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:21:53 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:22:33 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:23:10 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:23:33 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:23:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:24:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:24:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:25:32 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:25:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:25:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:26:46 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:28:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:29:22 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:29:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:29:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:29:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Fighter.23' in 'field list'
+Request URL: /cakephp-2.7.3/arenas/fighter
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Fighter...', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Fighter...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(1114): DboSource->fetchAll('SELECT `Fighter...', false)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(3026): DboSource->read(Object(Fighter), Array)
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(2998): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(600): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(Fighter))
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/ArenasController.php(51): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/ArenasController.php(51): Fighter->findById('first', '23')
+#10 [internal function]: ArenasController->fighter()
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#12 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-11 10:29:45 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:41:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 10:46:30 Error: [MissingViewException] View file "Players/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Players/logout.ctp',
+)
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-11 10:49:59 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php, line 83]
+2015-12-11 10:49:59 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp-2.7.3/players/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 83, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 83, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-11 10:50:25 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tata@tata.fr' for key 'email_UNIQUE'
+Request URL: /cakephp-2.7.3/players/register
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `ec...', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(1020): DboSource->execute('INSERT INTO `ec...')
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Player.php(44): Model->save(Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(61): Player->add('tata@tata.fr', '943dd4a6b71f76d...')
+#7 [internal function]: PlayersController->register()
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-11 10:53:53 Error: Fatal Error (1): Call to undefined method PlayersController::redirectUrl() in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php, line 92]
+2015-12-11 10:53:53 Error: [FatalErrorException] Call to undefined method PlayersController::redirectUrl()
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 92, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 92, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-11 10:56:39 Error: Fatal Error (1): Call to a member function set() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/ArenasController.php, line 71]
+2015-12-11 10:56:39 Error: [FatalErrorException] Call to a member function set() on null
+Request URL: /cakephp-2.7.3/arenas/fighter
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 71, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 71, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-11 10:59:04 Error: Fatal Error (1): Call to undefined method PlayersController::redirectUrl() in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php, line 92]
+2015-12-11 10:59:04 Error: [FatalErrorException] Call to undefined method PlayersController::redirectUrl()
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 92, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 92, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-11 10:59:53 Error: Fatal Error (1): Call to undefined method PlayersController::redirectUrl() in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php, line 92]
+2015-12-11 10:59:53 Error: [FatalErrorException] Call to undefined method PlayersController::redirectUrl()
+Request URL: /cakephp-2.7.3/players/logout
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 92)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 92, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 92, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-11 11:00:07 Error: Fatal Error (1): Call to a member function set() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/ArenasController.php, line 187]
+2015-12-11 11:00:07 Error: [FatalErrorException] Call to a member function set() on null
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 187)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 187, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 187, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-11 11:20:43 Error: Fatal Error (4): syntax error, unexpected ''style'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/View/Players/index.ctp, line 16]
+2015-12-11 11:20:43 Error: [FatalErrorException] syntax error, unexpected ''style'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp-2.7.3/players
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 16, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-11 11:59:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'email_UNIQUE'
+Request URL: /cakephp-2.7.3/players
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `ec...', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(1020): DboSource->execute('INSERT INTO `ec...')
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Player), Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Player.php(53): Model->save(Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(38): Player->changePassword('titi')
+#7 [internal function]: PlayersController->index()
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-11 14:01:49 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Player.php, line 59]
+2015-12-11 14:01:49 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /cakephp-2.7.3/players
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 59, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 59, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-11 14:28:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 14:52:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/downloads-bg.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 15:15:05 Error: Fatal Error (1): Call to a member function image() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/View/Arenas/fighter.ctp, line 110]
+2015-12-11 15:15:05 Error: [FatalErrorException] Call to a member function image() on null
+Request URL: /cakephp-2.7.3/arenas/fighter
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 110)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 110, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 110, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-11 16:33:05 Error: [MissingActionException] Action PlayersController::recover() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'recover',
+)
+Request URL: /cakephp-2.7.3/players/recover
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-11 16:38:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'recoverPassword' at line 1
+Request URL: /cakephp-2.7.3/players/recover
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('recoverPassword', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('recoverPassword', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(612): DboSource->fetchAll('recoverPassword', Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(827): DboSource->query('recoverPassword', Array, Object(Player))
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(162): Model->__call('recoverPassword', Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(162): Player->recoverPassword('tata@tata.fr')
+#7 [internal function]: PlayersController->recover()
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-11 16:59:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/downloads-bg.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-11 19:42:08 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Player.php, line 68]
+2015-12-11 19:42:08 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /cakephp-2.7.3/players
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 68, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 68, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 11:26:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'recoverPassword' at line 1
+Request URL: /cakephp-2.7.3/players/recover
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('recoverPassword', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('recoverPassword', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(612): DboSource->fetchAll('recoverPassword', Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(827): DboSource->query('recoverPassword', Array, Object(Player))
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(162): Model->__call('recoverPassword', Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(162): Player->recoverPassword('af.luong@gmail....')
+#7 [internal function]: PlayersController->recover()
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-14 11:26:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'generatePassword' at line 1
+Request URL: /cakephp-2.7.3/players/recover
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('generatePasswor...', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('generatePasswor...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(612): DboSource->fetchAll('generatePasswor...', Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(827): DboSource->query('generatePasswor...', Array, Object(Player))
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(162): Model->__call('generatePasswor...', Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php(162): Player->generatePassword('af.luong@gmail....')
+#7 [internal function]: PlayersController->recover()
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PlayersController), Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-14 11:27:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 11:27:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 11:31:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 11:33:28 Error: Fatal Error (1): Call to a member function password() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Player.php, line 70]
+2015-12-14 11:33:28 Error: [FatalErrorException] Call to a member function password() on null
+Request URL: /cakephp-2.7.3/players/recover
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 70, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 70, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 11:36:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 11:36:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 11:37:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 11:37:53 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/PlayersController.php, line 77]
+2015-12-14 11:37:53 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /cakephp-2.7.3/players/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 77)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 77, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 77, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 11:37:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 11:38:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 12:01:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 12:02:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 12:03:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 12:03:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 12:04:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 12:04:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 12:13:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 12:17:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 14:19:00 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 599]
+2015-12-14 14:19:00 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 599)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 14:19:41 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 599]
+2015-12-14 14:19:41 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 599)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 14:20:48 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 599]
+2015-12-14 14:20:48 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 599)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 14:23:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'fighterChoice' at line 1
+Request URL: /cakephp-2.7.3/arenas/fighter
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('fighterChoice', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('fighterChoice', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(612): DboSource->fetchAll('fighterChoice', Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(827): DboSource->query('fighterChoice', Array, Object(Fighter))
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/ArenasController.php(60): Model->__call('fighterChoice', Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/ArenasController.php(60): Fighter->fighterChoice('566a942c-b73c-4...')
+#7 [internal function]: ArenasController->fighter()
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-14 14:24:41 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'fighterChoice' at line 1
+Request URL: /cakephp-2.7.3/arenas/fighter
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('fighterChoice', Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('fighterChoice', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Datasource/DboSource.php(612): DboSource->fetchAll('fighterChoice', Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Model/Model.php(827): DboSource->query('fighterChoice', Array, Object(Fighter))
+#5 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/ArenasController.php(60): Model->__call('fighterChoice', Array)
+#6 /Applications/MAMP/htdocs/cakephp-2.7.3/app/Controller/ArenasController.php(60): Fighter->fighterChoice('566a942c-b73c-4...')
+#7 [internal function]: ArenasController->fighter()
+#8 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenasController), Array)
+#9 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-12-14 14:28:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 14:29:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 14:31:10 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 599]
+2015-12-14 14:31:10 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 599)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 14:35:11 Error: Fatal Error (1): Call to a member function checkTool() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 599]
+2015-12-14 14:35:11 Error: [FatalErrorException] Call to a member function checkTool() on null
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 599)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 14:35:32 Error: Fatal Error (1): Call to a member function checkTool() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 599]
+2015-12-14 14:35:32 Error: [FatalErrorException] Call to a member function checkTool() on null
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 599)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 599, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 14:35:47 Error: Fatal Error (1): Call to a member function checkTool() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 601]
+2015-12-14 14:35:47 Error: [FatalErrorException] Call to a member function checkTool() on null
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 601)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 601, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 601, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 14:36:20 Error: Fatal Error (4): syntax error, unexpected ',' in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 601]
+2015-12-14 14:36:20 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 601)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 601, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 601, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 14:37:36 Error: Fatal Error (4): syntax error, unexpected ''Tool.coordinate_y'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 604]
+2015-12-14 14:37:36 Error: [FatalErrorException] syntax error, unexpected ''Tool.coordinate_y'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 604)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 604, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 604, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 14:37:44 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 601]
+2015-12-14 14:37:44 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 601)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 601, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 601, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 15:20:28 Error: Fatal Error (1): Call to a member function find() on null in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/Model/Fighter.php, line 601]
+2015-12-14 15:20:28 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp-2.7.3/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 601)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 601, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 601, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 16:42:15 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/View/Arenas/fighter.ctp, line 40]
+2015-12-14 16:42:15 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cakephp-2.7.3/arenas/fighter
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 40, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 40, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 17:14:24 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:14:40 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:15:00 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:16:05 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:17:00 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:17:10 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:17:15 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:17:17 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:17:17 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:17:18 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:17:50 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:18:02 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:18:15 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:18:30 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:18:56 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:19:09 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:19:27 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:19:35 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:19:41 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:19:45 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:19:46 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:19:47 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:19:58 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:20:07 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:20:13 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:20:21 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:20:30 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:20:46 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:20:56 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:21:59 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:22:12 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:22:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:22:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:22:46 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:22:46 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/30.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:22:54 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:23:04 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:23:04 Error: [MissingActionException] Action ArenasController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenasController',
+  'action' => 'webroot',
+)
+Request URL: /cakephp-2.7.3/arenas/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ArenasController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-14 17:25:22 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:25:49 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:26:11 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/webroot/img/avatars/33.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:39:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:40:19 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/View/Arenas/fighter.ctp, line 78]
+2015-12-14 17:40:19 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp-2.7.3/arenas/fighter
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 78)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 78, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 78, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-14 17:40:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:40:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 13:58:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/downloads-bg.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 13:59:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/downloads-bg.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 13:59:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/downloads-bg.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 13:59:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/downloads-bg.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 14:00:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/downloads-bg.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 14:00:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/downloads-bg.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 15:35:00 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/View/Arenas/index.ctp, line 124]
+2015-12-15 15:35:00 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 124)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 124, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 124, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-15 15:39:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/test.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 15:39:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/test.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 15:39:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/img/test.jpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 15:51:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 15:52:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 15:52:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 15:52:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:00:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:02:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:03:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:03:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:03:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:03:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:04:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:04:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:04:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:04:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:05:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:14:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:14:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:15:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:16:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp-2.7.3/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:21:29 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/View/Arenas/index.ctp, line 160]
+2015-12-15 16:21:29 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 160)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 160, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 160, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-15 16:21:52 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/cakephp-2.7.3/app/View/Arenas/index.ctp, line 159]
+2015-12-15 16:21:52 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp-2.7.3/arenas
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 159)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 159, Array)
+#2 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 159, Array)
+#3 /Applications/MAMP/htdocs/cakephp-2.7.3/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-01 14:00:04 Error: Fatal Error (4): syntax error, unexpected '"<br/>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/Applications/MAMP/htdocs/webarena_v2/app/View/Arenas/sight.ctp, line 114]
+2016-03-01 14:00:04 Error: [FatalErrorException] syntax error, unexpected '"<br/>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /webarena_v2/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 114)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 114, Array)
+#2 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 114, Array)
+#3 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-01 14:35:19 Error: Fatal Error (4): syntax error, unexpected ''<br/>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/Applications/MAMP/htdocs/webarena_v2/app/View/Arenas/sight.ctp, line 110]
+2016-03-01 14:35:19 Error: [FatalErrorException] syntax error, unexpected ''<br/>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /webarena_v2/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 110)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 110, Array)
+#2 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 110, Array)
+#3 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-01 14:54:15 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/Applications/MAMP/htdocs/webarena_v2/app/View/Arenas/sight.ctp, line 127]
+2016-03-01 14:54:15 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /webarena_v2/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 127)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 127, Array)
+#2 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 127, Array)
+#3 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-03-01 15:19:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /webarena_v2/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/webarena_v2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 15:20:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /webarena_v2/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/webarena_v2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 15:21:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /webarena_v2/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/webarena_v2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 15:22:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /webarena_v2/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/webarena_v2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 15:23:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /webarena_v2/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/webarena_v2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-03-01 15:26:44 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/webarena_v2/app/Model/Fighter.php, line 415]
+2016-03-01 15:26:44 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /webarena_v2/arenas/sight
+Stack Trace:
+#0 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 415)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 415, Array)
+#2 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 415, Array)
+#3 /Applications/MAMP/htdocs/webarena_v2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

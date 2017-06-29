@@ -1,0 +1,261 @@
+/* Fichier css custom */
+
+.background {
+    background: url(../img/warrior.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.content {
+	margin-top: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #111;
+}
+
+.connection-section {
+	margin-top: 20px;
+}
+
+.side-content {
+	padding-top: 60px;
+	padding-bottom: 270px;
+}
+
+.custom-content {
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+
+.content-sight {
+	padding-top: 35px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 13px;
+}
+
+.content-form {
+	padding: 50px;
+}
+
+.content-fighter {
+	padding-bottom: 160px;
+}
+
+.content-diary {
+	padding-left: 70px;
+	padding-bottom: 20px;
+	margin-bottom: 40px
+}
+
+.skill {
+	text-align: left;
+	margin-left: 40px;
+	margin-bottom: 5px;
+}
+
+.file-form {
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+
+}
+
+.input-form {
+	width: 355px;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btn-custom {
+	margin-bottom: 30px;
+}
+
+.li-custom {
+	margin-left: 100px;
+}
+
+.board td {
+	padding: 30px;
+	border-color: #111;
+}
+
+.progress {
+	width: 170px;
+	height: 6px;
+	background-color: #000;
+}
+
+.small-custom {
+	font-size: 60%;
+}
+
+.border {
+	border: 2px solid #fff;
+	padding: 30px;
+}
+
+.fighter {
+	margin-top: 30px;
+}
+
+.health {
+	background-color: #660000;
+}
+
+.roundedFighter {
+	height: 80px;
+	width: 80px;
+	border-radius: 50px;
+	margin-right: 8px;
+	margin-bottom: 20px;
+}
+
+.overlay {
+	position: absolute;
+	opacity: 0;
+	color: #eCeCeC;
+	background-color: #000;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 2px;
+	font-size: 130%;
+	transition: all 0.2s;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.overlay:hover {
+	opacity: 1;
+}
+
+.play:hover {
+	color: #fff;
+}
+
+ul.img-list {
+	list-style-type: none;
+}
+
+ul.img-list li {
+	display: inline-block;
+	position: relative;
+	margin: 0 3em 1em 0;
+}
+
+ul.img-list li:hover span.text-content {
+	opacity: 0.7;
+}
+
+span.text-content {
+	background-color: #660000;
+	color: #fff;
+	cursor: pointer;
+	display: table;
+	height: 170px;
+	width: 170px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: opacity 500ms;
+}
+
+span.text-content span {
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+	font-size: 150%;
+}
+
+#message {
+	margin: 0;
+	padding: 0;
+}
+
+#power {
+	color: #660000;
+}
+
+#health {
+	color: #660000;
+}
+
+#sight {
+	color: #1BA39C;
+}
+
+#strength {
+	color: #F4D03F;
+}
+
+#informations {
+	padding-bottom: 321px;
+}
+
+#diary {
+	color:#660000;
+	margin-bottom: 10px;
+}
+
+#emptyTable {
+	margin-bottom: 78px;
+}
+
+#infos {
+	margin-left: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#play {
+	border-radius: 50px;
+	padding: 20px;
+	background-color: #000;
+}
+
+#play:hover {
+	background-color: #660000;
+	transition: 0.3s;
+}
+
+h2 {
+	margin-bottom: 15px;
+}
+
+.h4-custom {
+	margin-bottom: 10px;
+}
+
+h5 {
+	text-align: left;
+	margin-left: 40px;
+	margin-bottom: 5px;
+}
+
+table th {
+	padding-right: 50px;
+	border-bottom: 1px solid #660000;
+
+}
+
+table td {
+	padding-right: 50px;
+	padding-bottom: 5px;
+}
+
+table tr:hover {
+	background-color: #222;
+}
+
+#end {
+	padding-right: 0px; 
+}
+
+
+
+
